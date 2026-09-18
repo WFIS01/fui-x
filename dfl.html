@@ -1,34 +1,3 @@
-const CONFIG = {
-  UI: {
-    BACKGROUND: "#121212",
-    TRANSPARENCY: 85,
-    ICONONLY: false,
-    TEXTONLY: false,
-    RAW: false
-  },
-  FONT: {
-    FAMILY: "'Inter', sans-serif",
-    SIZE: "16px",
-    COLOUR: "#FFFFFF",
-    FORMAT: ["bold", "underline"]
-  },
-  BRAND: {
-    LOGO: "https://example.com/logo.svg",
-    FAVICON: "https://example.com/favicon.ico",
-    TITLE: "Math Workspace"
-  },
-  FROST: {
-    SHOW_VIDEO: false,
-    SHOW_META_DATA: true,
-    SHOW_DIFFICULTY: true,
-    SHOW_CALCULATOR: true,
-    SHOW_FEEDBACK: false,
-    SHOW_WHITEBOARD: true,
-    SHOW_NAV_BAR: true,
-    SHOW_SCROLL_HINT: false
-  }
-};
-
 class FrostCustomizerEngine {
   constructor(config = {}) {
     this.config = config;
